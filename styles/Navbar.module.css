@@ -1,0 +1,74 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar_list{
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar_list li{
+    list-style: none;
+    margin-right: 40px;
+  }
+  
+  
+  .link1{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    font-family: "Showcard Gothic"; 
+  
+  }
+  
+  .link1:hover{
+    color: #f54e81;
+  }
+  
+  .link2:hover{
+    color: #f54e81;
+  }
+  
+  .link2{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    font-family: "Showcard Gothic"; 
+  }
+  
+
+  @media only screen and (max-width: 370px){
+    .link1{
+      margin: 0;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-family: "Showcard Gothic"; 
+    
+    }
+    
+    .link1:hover{
+      color: #f54e81;
+    }
+    
+    .link2:hover{
+      color: #f54e81;
+    }
+    
+    .link2{
+      margin: 0;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-family: "Showcard Gothic"; 
+    }
+    
+  }
